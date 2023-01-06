@@ -34,12 +34,13 @@
 
 .image {
   display: flex;
+  margin-top: 20px;
   justify-content: center;
 }
 
 .img-profile {
-  margin-top: 60px;
-  width: 78%;
+  margin-top: 50px;
+  width: 72%;
   transition: all 1s;
   vertical-align: middle;
 }
