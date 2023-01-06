@@ -38,7 +38,8 @@
 }
 
 .img-profile {
-  width: 155%;
+  margin-top: 60px;
+  width: 78%;
   transition: all 1s;
   vertical-align: middle;
 }
