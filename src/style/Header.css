@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.page-header {
+    display: flex;
+    padding: 12px 20px;
+    width: 100%;
+    background-color:#00072b;
+}
+
+.title-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: #ff008e;
+}
+
+.title-header2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    padding: 5px 60px 0px;
+    width: 60%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  width: 65%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.home,
+.about {
+    display: flex;
+    padding: 20px;
+    margin-right: 30px;
+}
+
+.home,
+.about:hover,
+.skill:hover,
+.project:hover,
+.contat:hover {
+    text-decoration: overline;
+    color: #00c897;
+}
+
+.skill {
+    display: flex;
+    padding: 20px;
+    margin-right: 30px;
+}
+
+.project {
+    display: flex;
+    padding: 20px;
+    margin-right: 30px;
+}
+
+.contat {
+    display: flex;
+    padding: 20px;
+}
+
+.fa-angle-left {
+    font-size: 24px;
+}

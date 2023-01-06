@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page-about {
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.page-about {
+  font-size: 100%;
+  background-size: 100%;
+}
+
+.title {
+  font-size: 60px;
+  text-align:center;
+  margin-bottom: 15px;
+  padding: 15px 0px;
+  color: #f8f8f8;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 0.2em 0.2em 0.2em black
+}
+
+.about-profile {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.img-profile {
+  width: 155%;
+  transition: all 1s;
+  vertical-align: middle;
+}
+
+.text p{
+  text-align: justify;
+  padding-bottom: 20px;
+  line-height: 26px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#right-text{
+  width: 100%;
+  font-size: 18px;
+  margin-left: 5px;
+  margin-right: 40px;
+  padding: 10px;
+}
+
+.link {
+  display:block;
+  height: 29px;
+  text-decoration:none;
+  margin-top: 20px;
+  text-decoration: none;
+  text-align:center;
+  width: 180px;
+	background-color: rgba(255, 255, 255, 0.096);
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+.link {
+  color: #00c897;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.link::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0;
+  transition: all 0.2s;
+  border-top-width: 3px;
+  border-bottom-width: 3px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: #00c897;
+  border-bottom-color: #ff008e;
+  transform: scale(0.1, 1);
+}
+
+.link:hover::before {
+  opacity: 1;	
+  transform: scale(1, 1);	
+}
+
+.link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+}
+
+.link:hover::after {
+  opacity: 0;	
+  transform: scale(0.1, 1);
+}
+ /* salvar esse codigo */
+.pulse {
+  animation: pulse 0.7s infinite;
+  margin: 0 auto;
+  display: table;
+  animation-direction: alternate;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+    filter: brightness(50%);
+  }
+}

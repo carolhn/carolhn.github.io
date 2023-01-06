@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+.technology-card {
+    color: var(--color-bg);
+    padding: 33px;
+    background-color: var(--color-bg);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border-radius: 7px;
+    transition: 0.4s all ease;
+    cursor: pointer;
+    border: 1px solid #ff008e;
+    border-bottom: 6px solid #ff008e;
+    margin: 16px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .technology-card img {
+    height: 100px;
+    transition: 0.4s all ease;
+  }
+  
+  .technology-card i {
+    font-size: 4.5rem;
+    color: var(--color-primary);
+    transition: 0.4s all ease;
+    text-shadow: 0px 0px 48px 0px;
+  }
+  
+  .technology-card:hover {
+    box-shadow: 0 0 19px 0px var(--color-primary-variant);
+    transform: scale(1.03);
+  }
+  
+  @media screen and (max-width: 880px) {
+  
+    .technology-card {
+      padding: 9px 20px
+    }
+  
+    .contact-links-section .technology-card i,
+    .technology-card i {
+      font-size: 3.5rem;
+    }
+  
+    .technology-card img {
+      height: 80px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 450px) {
+  
+    .technology-card img {
+      height: 60px;
+    }
+  
+    .contact-links-section .technology-card i,
+    .technology-card i {
+      font-size: 2.0rem;
+    }
+  }
+  

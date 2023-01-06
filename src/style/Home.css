@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color:#00072b;
+}
+
+body {
+    height: 100vh;
+}
+
+.background {
+    width: 100%;
+    position: absolute;
+}
+
+.homeImg {
+    width: 50%;
+    margin-top: 90px;
+    margin-left: 670px;
+    position: absolute;
+}
+
+.title-container-home {
+    padding-top: 50px;
+    margin-left: 80px;
+}
+
+.title-home {
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+}
+
+.title3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    padding-top: 10px;
+    margin-left: 80px;
+    color: white;
+
+    border-right: 1px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.hello {
+    margin-top: 20px;
+}
+
+.title2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: 80px;
+    color: #ff008e;
+    margin-right: 0%;
+}
+
+.title2 {
+    border-right: 2px solid #ff008e;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+}
+
+.type-animation {
+    animation: cursor 800ms steps(40) infinite normal,
+    animation 3s steps(40) 400ms normal both;
+}
+
+.type-animation2 {
+    animation: cursors 800ms steps(40) infinite normal,
+    animations 2s steps(40) 3700ms normal both;
+}
+
+
+@keyframes cursor {
+    from {
+        border-right-color: #ff008e;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes animation {
+    from {
+        width: 0%;
+    }
+    to {
+       width: 29%;
+    }
+}
+
+@keyframes cursors {
+    from {
+        border-right-color: white;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes animations {
+    from {
+        width: 0%;
+    }
+    to {
+       width: 31%;
+    }
+}
