@@ -28,7 +28,6 @@ class About extends Component {
           <a href={curriculo} target="_blank" rel="noopener noreferrer" className='link'>Currículo</a>
         </div>
       </div>
-
      </section>
     )
   }

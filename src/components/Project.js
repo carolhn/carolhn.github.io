@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../style/project.css'
+import '../style/Project.css'
 import Header from './Header'
 
 import project1 from '../images/projeto1.png'
@@ -13,7 +13,7 @@ export default class Project extends Component {
     return (
       <div>
         <Header />
-        <ul className='allProject'>
+          <ul className='allProject'>
             <li>
               <img className='imgProject' src={project1} alt="project1" />
               <div className="textProject">
