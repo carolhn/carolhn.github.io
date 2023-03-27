@@ -9,7 +9,7 @@
     align-content: center;
     justify-content: center;
     align-items: center;
-    height: 150px;
+    height: 140px;
     border-radius: 7px;
     transition: 0.4s all ease;
     cursor: pointer;
@@ -25,7 +25,7 @@
   }
   
   .technology-card i {
-    font-size: 4.5rem;
+    font-size: 4.3rem;
     color: var(--color-primary);
     transition: 0.4s all ease;
     text-shadow: 0px 0px 48px 0px;
