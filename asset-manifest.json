@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dfe4ddd3.css",
-    "main.js": "/static/js/main.131bcbf0.js",
+    "main.css": "/static/css/main.ed1b307b.css",
+    "main.js": "/static/js/main.af9ac342.js",
     "static/media/concat.png": "/static/media/concat.19038837d92afea7bda2.png",
     "static/media/project3.png": "/static/media/project3.392b59d234459d9816ce.png",
     "static/media/imgAbout.png": "/static/media/imgAbout.950b8e216af2c0351b1b.png",
@@ -10,13 +10,13 @@
     "static/media/project5.png": "/static/media/project5.3edfd7be8510b44a42d8.png",
     "static/media/project2.png": "/static/media/project2.8dd38a3a8ac32d3d2aaa.png",
     "static/media/project4.png": "/static/media/project4.df2c40f8f66ca7fb4810.png",
-    "static/media/curriculo.pdf": "/static/media/curriculo.632039ce4160314e4726.pdf",
+    "static/media/curriculo.pdf": "/static/media/curriculo.ca85998dae39751daf0b.pdf",
     "index.html": "/index.html",
-    "main.dfe4ddd3.css.map": "/static/css/main.dfe4ddd3.css.map",
-    "main.131bcbf0.js.map": "/static/js/main.131bcbf0.js.map"
+    "main.ed1b307b.css.map": "/static/css/main.ed1b307b.css.map",
+    "main.af9ac342.js.map": "/static/js/main.af9ac342.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfe4ddd3.css",
-    "static/js/main.131bcbf0.js"
+    "static/css/main.ed1b307b.css",
+    "static/js/main.af9ac342.js"
   ]
 }
